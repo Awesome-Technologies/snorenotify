@@ -16,8 +16,8 @@
     along with SnoreNotify.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef ALERT_H
-#define ALERT_H
+#ifndef SNORE_ALERT_H
+#define SNORE_ALERT_H
 
 #include "snore_exports.h"
 #include "notification/icon.h"
@@ -98,4 +98,4 @@ private:
 
 QDebug SNORE_EXPORT operator<< (QDebug debug, const Snore::Alert &alert);
 
-#endif // ALERT_H
+#endif // SNORE_ALERT_H

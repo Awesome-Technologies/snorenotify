@@ -16,8 +16,8 @@
     along with SnoreNotify.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef APPLICATION_H
-#define APPLICATION_H
+#ifndef SNORE_APPLICATION_H
+#define SNORE_APPLICATION_H
 #include "snore_exports.h"
 #include "hint.h"
 #include "notification/icon.h"
@@ -141,4 +141,4 @@ Q_DECLARE_METATYPE(Snore::Application)
 
 SNORE_EXPORT QDebug operator<< (QDebug debug, const Snore::Application &app);
 
-#endif // APPLICATION_H
+#endif // SNORE_APPLICATION_H
